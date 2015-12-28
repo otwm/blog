@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "정리할 것들"
+---
+
+1. http://pds19.egloos.com/pds/201106/28/18/Open_Session_In_View_Pattern.pdf
+
+시벌 오라클 개삐꾸 새퀴덜
