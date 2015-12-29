@@ -13,4 +13,4 @@ http://devblog.croquis.com/ko/2012/05/28/1-jekyll-blog-3.html
 Db migration
 [Flyway]:(https://www.lesstif.com/pages/viewpage.action?pageId=17105261)
 
-Qq
+https://www.lesstif.com/pages/viewpage.action?pageId=17105261
