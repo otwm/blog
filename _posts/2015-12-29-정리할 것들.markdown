@@ -9,3 +9,6 @@ title:  "정리할 것들"
 
 해보자!!
 http://devblog.croquis.com/ko/2012/05/28/1-jekyll-blog-3.html
+
+Db migration
+[Flyway]:(https://www.lesstif.com/pages/viewpage.action?pageId=17105261)
