@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ubuntu mount"
+comments: True
 ---
     
 디스크 보기   
