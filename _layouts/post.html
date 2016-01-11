@@ -11,5 +11,9 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  
+  {% if page.comments %}
+  this is comments
+  {% endif %}
 
 </article>
