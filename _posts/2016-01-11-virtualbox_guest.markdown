@@ -1,5 +1,6 @@
 ---
 layout: post
+comments:true
 title:  "virtualbox 게스트 확장 설치"
 ---
     
