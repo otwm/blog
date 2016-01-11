@@ -18,3 +18,8 @@ github_username:  otwm
 
 # Build settings
 markdown: kramdown
+
+comments :
+  provider : disqus
+  disqus :
+    short_name : disqus_Gqj22r7saE
