@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "virtualbox 게스트 확장 설치"
+comments: True
 ---
     
  1. 우분투에 로그인을 합니다. (터미널, SSH 등으로 접속하여 작업하지 마시고, 로컬에서 작업하세요.)   
