@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "정리할 것들"
+comments: True
 ---
 
 1. http://pds19.egloos.com/pds/201106/28/18/Open_Session_In_View_Pattern.pdf
