@@ -1,5 +1,6 @@
 ---
 layout: post
+comment:true
 title:  "new blog process (jekyll install)"
 ---
 1.ruby 설치      
