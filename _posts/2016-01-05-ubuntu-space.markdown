@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "ubuntu 공간 정리"
+comments: True
 ---
   
 [출처]:(http://inia30.tistory.com/9)  
