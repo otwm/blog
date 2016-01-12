@@ -78,7 +78,6 @@ disque와의 통합은 매우 간단하다.
          provider : disqus   
          disqus :    
            short_name : disqus_XXXXX(show name)    
-
 5. 삽입코드 저장  
 _includes/comments.html 생성  
 {% raw  %}
