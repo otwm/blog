@@ -12,14 +12,14 @@ disque와의 통합은 매우 간단하다.
 다음의 절차로 간단히 코멘트를 블로그에 넣을 수 있다.
 
 다음)       
-1. disque 가입
-2. disque 서비스 내의 코멘트의 설정
-3. 지킬 설정에 필요한 shotName과 삽입 코드를 저장해 둔다.
-4. _config.yml 수정
-5. 삽입코드 저장
-6. 포스트 레이아웃 변경
-7. 포스트에 커맨트 설정 추가
-8. 테스트!!!
+1. disque 가입  
+2. disque 서비스 내의 코멘트의 설정  
+3. 지킬 설정에 필요한 shotName과 삽입 코드를 저장해 둔다.  
+4. _config.yml 수정  
+5. 삽입코드 저장  
+6. 포스트 레이아웃 변경  
+7. 포스트에 커맨트 설정 추가  
+8. 테스트!!!  
 
 ====================================================================  
 1. disque 가입
@@ -80,13 +80,17 @@ disque와의 통합은 매우 간단하다.
            short_name : disqus_XXXXX(show name)    
 5. 삽입코드 저장
 _includes/comments.html 생성    
+{% raw  %}
          {% if page.comments %}  
          // disque 스니핏  
         {% endif %}  
+{% endraw  %}         
 프로그래머분들은 블록 안에 코드가 어떤 말인지 쉽게 아시겠죠?          
 6. 포스트 레이아웃 변경       
 _layouts/post.html에 코멘트를 달 위치에 아래의 코드를 추가  
-       % include comments.html %  
+{% raw  %}
+       {% include comments.html %}  
+{% endraw  %}       
 7. 포스트에 커맨트 설정 추가
 헤더(?)에 다음 구문을 추가 해주세요. -> ** comments: True **  
 8. 테스트!!!
