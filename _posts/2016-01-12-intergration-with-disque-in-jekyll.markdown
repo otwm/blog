@@ -3,7 +3,6 @@ layout: post
 title:  "지킬에서 disque 통합"
 comments: True
 ---
-## 지킬에서 disque 통합   
 지킬은 static 기반의 데이터베이스가 같은 저장소가 필요한 경우에 난감하다.    
 블로그 기반의 서비스이므로 특히, 코멘트가 필요하지만, 지킬의 경우에는 기본적으로 코멘트를 구성할 수가 없다.   
 그래서 코멘트를 지원하는 다른 서비스와의 통합이 필요한데, 코멘트를 지원하는 disque 서비스와의 통합에 대해서 설명한다.
@@ -25,7 +24,7 @@ disque와의 통합은 매우 간단하다.
 ====================================================================  
 1. disque 가입
   - https://disqus.com/ 로 이동하여 회원을 가입한다.    
-  [가입관련 참조 링크](http://onasaju.tistory.com/182) << **disqus 가입 관련이 여기가 더 잘 설명 되어 있어요!**
+  [가입관련 참조 링크](http://onasaju.tistory.com/182) << **disqus 가입 관련이 여기가 더 잘 설명 되어 있어요!**    
 2. disque 서비스 내의 코멘트의 설정
   - 로그인 후 해당 화면에서 Add disqus to Site 를 클릭!!  
   ![disque1](/blog/images/disque1.png "disque1")
@@ -87,7 +86,7 @@ _includes/comments.html 생성
 프로그래머분들은 블록 안에 코드가 어떤 말인지 쉽게 아시겠죠?          
 6. 포스트 레이아웃 변경       
 _layouts/post.html에 코멘트를 달 위치에 아래의 코드를 추가  
-       {% include comments.html %}  
+       % include comments.html %  
 7. 포스트에 커맨트 설정 추가
 헤더(?)에 다음 구문을 추가 해주세요. -> ** comments: True **  
 8. 테스트!!!
