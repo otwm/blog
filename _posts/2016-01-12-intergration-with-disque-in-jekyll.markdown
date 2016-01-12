@@ -28,22 +28,23 @@ disque와의 통합은 매우 간단하다.
   [가입관련 참조 링크](http://onasaju.tistory.com/182) << **disqus 가입 관련이 여기가 더 잘 설명 되어 있어요!**
 2. disque 서비스 내의 코멘트의 설정
   - 로그인 후 해당 화면에서 Add disqus to Site 를 클릭!!  
-  ![disque1](./images/disque1.png "disque1")
+  ![disque1](/images/disque1.png "disque1")
   - Start to Engage 클릭    
-  ![disque2](./images/disque2.png "disque2")    
+  ![disque2](/images/disque2.png "disque2")    
   - Site name, disque url, Category 입력    
-  ![disque3](./images/disque3.png "disque3")    
+  ![disque3](/images/disque3.png "disque3")    
   Site name : 사이트명    
   disque url : 나의 디스커스 댓글 커뮤니티를 확인할 수 있는 SNS 개념의 웹 주소 입니다. 사이트 이름을 입력하면 자동으로 사이트 이름으로 입력이 되며, 변경 또한 가능 합니다.   
   Category : 자신의 웹 사이트(블로그) 카테고리를 설정하는 곳인데, 목록에 없다면 “Auto’ 로 해 주세요!   
   - Universal code 클릭   
-  ![disque4](./images/disque4.png "disque4")
+  ![disque4](/images/disque4.png "disque4")
   - 이제 스니핏을 볼 수 있습니다만, 실제 댓글에 대해 커스터 마이징 하도록 다음 절차를 실행 해주세요.    
     - Admin 메뉴 선택 후 다음 페이지에서 edit settings 를 선택   
-     ![disque4](./images/disque5.png "disque5")    
-    -  ![disque6](./images/disque6.png "disque6")    
-       ![disque7](./images/disque7.png "disque7")    
-       ![disque8](./images/disque8.png "disque8")    
+     ![disque4](/images/disque5.png "disque5")    
+    -  disque 설정  
+       ![disque6](/images/disque6.png "disque6")    
+       ![disque7](/images/disque7.png "disque7")    
+       ![disque8](/images/disque8.png "disque8")    
         Appearance(외관)    
         ➥ 색상, 서체 등을 설정할 수 있습니다. 기본값으로 두세요!    
 
@@ -85,7 +86,9 @@ _includes/comments.html 생성
         {% endif %}  
 프로그래머분들은 블록 안에 코드가 어떤 말인지 쉽게 아시겠죠?          
 6. 포스트 레이아웃 변경       
-_layouts/post.html에 코멘트를 달 위치에 아래의 코드를 추가    
-        {% include comments.html %}  
+_layouts/post.html에 코멘트를 달 위치에 아래의 코드를 추가  
+       {% include comments.html %}  
 7. 포스트에 커맨트 설정 추가
-gpej   comments: True
+헤더(?)에 다음 구문을 추가 해주세요. -> ** comments: True **  
+8. 테스트!!!
+자 이제 대략 작업이 끝났군요. 모든 것이 잘 되었는지 테스트 하면 되겠습니다. 참고로 구글 애널리스틱 역시 이와 유사하게 진행 하면 되겠습니다~~.
