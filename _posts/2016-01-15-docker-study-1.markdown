@@ -5,16 +5,16 @@ date:   2015-12-27
 comments: True
 ---
 
-Docker는 좋은 거임!    
-관련 방화벽 열어주기   
+Docker는 좋은 거임!
+관련 방화벽 열어주기
 
-    sudo ufw allow 4243/tcp   
+    sudo ufw allow 4243/tcp
 
-권한 설정   
+권한 설정
 
-    $ sudo groupadd docker    
-    $ sudo gpasswd -a ${USER} docker    
-    $ sudo service docker restart   
+    $ sudo groupadd docker
+    $ sudo gpasswd -a ${USER} docker
+    $ sudo service docker restart
 
 이미지 생성
 
@@ -67,7 +67,9 @@ docker file example
 > 그렇다면 어떻게 이미지의 내용을 알 수 있을까??
 
 다음은 천천히 알아보자.
+
 * shipyard
 * Doku
 * Docker ui
+
 [nacyot doker]:(http://blog.nacyot.com/articles/2014-01-27-easy-deploy-with-docker/)
