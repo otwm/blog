@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "ubuntu 한영전환"
+comments: True
+---
+
+http://kuroikuma.tistory.com/108
