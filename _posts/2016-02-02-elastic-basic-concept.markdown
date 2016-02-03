@@ -87,7 +87,7 @@ elasticsearch는 실시간에 가까운 검색 플랫폼이다. 이것이 의미
   
 요약하면 각 인덱스는 다수의 샤드로 나우어져 있고, 하나의 인덱스는 여러 번 복제될 수도 있다.(복제 안 될 수도 있다.)  
 한번 복제되면 각 인덱스는 프라이머리 샤드(원본 샤드)와 복제샤드를 가진다. 만은 샤드와 레플리카스는 인덱스가 생성될 때  
-마다 인덱스 별로 정의될 수 있다. 인덱스 생성 후 어떠한 때라도 동적으로 레플리카스의 수를 변경할 수 있지만, 샤드 수   after-the-fact는 변경 할 수 없다.(?????)( After the index is created, you may change the number of replicas dynamically anytime but you cannot change the number shards after-the-fact.)  
+마다 인덱스 별로 정의될 수 있다. 인덱스 생성 후 어떠한 때라도 동적으로 레플리카스의 수를 변경할 수 있지만, 샤드 수   after-the-fact는 변경 할 수 없다.(??)( After the index is created, you may change the number of replicas dynamically anytime but you cannot change the number shards after-the-fact.)  
 
 기본적으로 elasticsearch 상의 각 인덱스는 5개의 프라이머리 샤드와 하나의 레플리카로 할당된다.(하나의 노드 케이스)  클러스터에 최소한 두개의 노드를 가질 때,인덱스는 5개의 프라이머리 샤드와 5개의 레플리카 샤드(1 완료 레플리카)를 가진다. 
 즉, 인덱스 당 10개의 샤드를 가지게 된다.  
