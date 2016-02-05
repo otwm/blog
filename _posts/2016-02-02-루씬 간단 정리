@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "워크 프로세스와 테스트"
+comments: True
+---
+
+루씬은 자바긴반 오픈소스 검색 라이브러리이다. 루씬은 빠르고 효과적이며 간단하게 문서를 검색한다.
+
+![disque6](/images/lucene.png "lucene")
+
+루씬에서의 주요 개념.
