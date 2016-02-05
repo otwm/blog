@@ -4,10 +4,11 @@ title:  "scrapy 간단정리"
 comments: True
 ---
 ## 스크래피의 간단설명  
+ 
 
 ## 스크래피 익셉션  
 Build-in Exceptions reference  
-스크래피의 예외 리스트와 사용법  
+스크래피의 예외 리스트와 사용법.  
 
 * DropItem    
 파이프라인 에서 프로세스를 멈추게 하는 익셉션
