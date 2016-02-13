@@ -1,4 +1,10 @@
-###z shell and oh my zshell
+---
+layout: post
+title:  "new blog process (jekyll install)"
+comments: True
+---
+
+### z shell and oh my zshell
         
 zsh --version
 zsh 5.0.7
@@ -16,3 +22,10 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
    
 #### 터미널 분할  
 apt-get install terminator
+
+
+### ~/.zshrc
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+
+rvm use 2.2
