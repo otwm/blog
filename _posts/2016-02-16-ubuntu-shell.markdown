@@ -29,3 +29,7 @@ apt-get install terminator
 
 
 rvm use 2.2
+
+### jekyll   
+
+gem install jekyll -v '3.1.1'
