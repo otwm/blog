@@ -3,4 +3,27 @@ layout: post
 title:  "업무 분석 모델링"
 comments: True
 ---
-sasa
+
+validation  
+### inception   
+### elaboration   
+베리피케이션  
+### Construction  
+   
+### Agile   
+* 프로세스, 도구보다는 개인과 상호작용 중시  
+* 방대한 문서보다는 실행되는 SW 중시  
+* 계약 협상보다는 고객과 협업 중시  
+* 계획에 따르기 보다는 변화에 반응하기
+  
+Scrum Master!!! => 군림하는 사람이 아니다. servent이다.  
+Agile은 공학적인 셋업이 되어야 돼!!!  
+  
+프로세스가 완벽히 셋업되고 도구 사용이 되어야 한다.  
+  
+http://www.utdallas.edu/~chung/SP/applying-uml-and-patterns.pdf  
+  
+현 프로젝트 팀에도 적은 인원이지만, 어느정도 개발프로세스가 정형화되고 지속적으로 디벨롭되어야 한다.!  
+  
+
+
