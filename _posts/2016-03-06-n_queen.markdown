@@ -12,7 +12,7 @@ comments: True
 ## 핵심 로직  
 
 ### Backtracking
-n queen 문제는 Backtracking이라는 방법의 해법이네요. 이것이 왜 Backtracking인가에 대해서는 저도 모르겠습니다만, 문제의 풀이는 단순합니다.   
+n queen 문제는 Backtracking이라는 방법이 기본 해법 입니다. 이것이 왜 Backtracking인가에 대해서는 저도 모르겠습니다만, 문제의 풀이는 단순합니다.   
 
 * 주어진 N에 대해 첫째열 부터 마지막 N열까지 퀸을 위치시켜 올바른 정답을 찾는다.  
 * 순차적으로 첫째행 부터 마지막 행까지 퀸을 위치시키면서 진행한다.
